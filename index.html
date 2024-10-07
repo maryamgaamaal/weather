@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container px-5 py-4">
+            <div class="logo mx-2 mb-3">
+                <img src="imges/logo@2x.png" class="w-100 " alt="logo">
+            </div>
+            <div class="text-start head">
+                <h1 class="navbar-brand text-white py-md-1 m-0">weather</h1>
+                <p>tagline goes here</p>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-3">
+                        <a class="nav-link active px-4 py-1" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-3 ">
+                        <a class="nav-link px-4 py-1" href="#">News</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link px-4 py-1" href="#">Live cameras</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link px-4 py-1" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link px-4 py-1" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="content py-5 px-md-5 ">
+        <div class="container py-5 px-md-5 ">
+            <div class="px-md-5 inputsearch">
+                <input type="text" id="search" placeholder="find your location...">
+                <button id="btnSearch" class="btn text-white">Find</button>
+            </div>
+        </div>
+        <div class="px-md-5">
+            <div class="container text-white px-md-5">
+                <div class="row  px-md-5">
+                    <div class="col-md-4 g-0 day1">
+                        <div class="title d-flex justify-content-between px-md-3  text-secondary ">
+                            <p id="today" class="m-1 p-1"></p>
+                            <p id="date" class="m-1 p-1"></p>
+                        </div>
+                        <div class="py-4 degre p-3 ps-4">
+                            <p id="city" class="text-secondary"></p>
+                            <h2 id="temperature"><sup>o</sup>C</h2>
+                            <div id="img">
+                                <img src="" alt="">
+                            </div>
+                            <p id="sunny" class="text-info"></p>
+                            <span class="pe-2" id="span1"></span>
+                            <span class="pe-2" id="span2"></span>
+                            <span class="pe-2" id="span3"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4 g-0 day2">
+                        <div class="second d-flex justify-content-center px-md-3  text-secondary ">
+                            <p id="tomorrow" class="m-1 p-1"></p>
+                        </div>
+                        <div class="py-4 degre p-3 text-center">
+                            <div id="img2" class="py-4">
+                                <img src="" alt="">
+                            </div>
+                            <p id="maxTemperature">
+                                <sop>o</sop>C
+                            </p>
+                            <p id="minTemperature" class="text-secondary"><sup>o</sup></p>
+                            <p id="sunny2" class="text-info"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 g-0 day3">
+                        <div class="title d-flex justify-content-center px-md-3  text-secondary three">
+                            <p id="aftertomorrow" class="m-1 p-1"></p>
+                        </div>
+                        <div class="py-4 degre p-3 text-center">
+                            <div id="img3" class="py-4">
+                                <img src="" alt="">
+                            </div>
+                            <p id="maxTemperature2">
+                                <sop>o</sop>C
+                            </p>
+                            <p id="minTemperature2" class="text-secondary"><sup>o</sup></p>
+                            <p id="sunny3" class="text-info"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #262936;">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-8">
+                    <div class="px-md-5 inputemail">
+                        <input type="text" id="search" placeholder="Enter your email...">
+                        <button class="btn text-white">Subscribe</button>
+                    </div>
+                    <div>
+                        <p class="text-secondary px-5 py-3 ">
+                            Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        <div class="icon d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-brands fa-facebook-f fa-lg "></i>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-brands fa-twitter fa-lg "></i>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-brands fa-google-plus-g fa-lg"></i>
+                        </div>
+                        <div class="icon d-flex justify-content-center align-items-center ms-1">
+                            <i class="fa-brands fa-pinterest fa-lg"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>
